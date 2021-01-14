@@ -1,4 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup />
-</Project>
+#include <iostream>
+using namespace std;
+
+int main() {
+	char tab[10][10];
+	for (int i = 0; i < 11; i++) {
+		for (int j = 0; j < 3; j++) {
+			tab[i][j] = '-';
+			cout << tab[i][j] << "\t";
+		}
+	}
+	return 0;
+}
